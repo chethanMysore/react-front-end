@@ -264,7 +264,7 @@ export class ItemList extends Component {
           data={itemData}
           options={options}
           pagination={true}
-          insertRow={true}
+          insertRow={false}
           deleteRow={true}
           selectRow={selectRowProp}
           tableStyle={{

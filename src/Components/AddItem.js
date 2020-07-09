@@ -105,6 +105,7 @@ export class AddItem extends Component {
                 });
               }}
               value="ADD"
+              href="/items"
             />
           </div>
         </div>

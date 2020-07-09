@@ -55,7 +55,7 @@ export class App extends Component {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <a className="navbar-brand" href="#/">
+              <a className="navbar-brand" href="#items">
                 <div className="image-container">
                   <img
                     src="../../images/illinois-tech-with-seal.svg"
@@ -76,15 +76,6 @@ export class App extends Component {
                   <a className="nav-link" href="#add">
                     Add Item
                   </a>
-                </li>
-              </ul>
-              <ul className="nav navbar-nav navbar-right">
-                <li className="nav-item" style={searchStyle}>
-                  <input
-                    className="form-control mr-sm-2"
-                    type="search"
-                    placeholder="Search"
-                  />
                 </li>
               </ul>
             </div>
