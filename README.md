@@ -10,6 +10,9 @@ This is a dashboard for Resource Manager of Illinois Tech University. The applic
 Install Dependencies
 ```cmd
 npm install
+npm install -g webpack
+npm install -g webpack-cli
+npm install -g webpack-dev-server
 ```
 Build and run the application
 ```cmd
