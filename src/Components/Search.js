@@ -32,7 +32,7 @@ export class Search extends Component {
         <div>
           {filteredArray.map((Item) => (
             <div className="row" key={Item.ItemId}>
-              <div className="col-sm-3">
+              <div className="col-sm-12">
                 <a href="#" onClick={() => this.dispatchFilterData(Item)}>
                   {Item.ItemName}
                 </a>
@@ -63,7 +63,7 @@ export class Search extends Component {
         <div>
           {filteredArray.map((Item) => (
             <div className="row" key={Item.ItemId}>
-              <div className="col-sm-3">
+              <div className="col-sm-12">
                 <a href="#" onClick={() => this.dispatchFilterData(Item)}>
                   {Item.ItemName}
                 </a>
@@ -94,7 +94,7 @@ export class Search extends Component {
         <div>
           {filteredArray.map((Item) => (
             <div className="row" key={Item.ItemId}>
-              <div className="col-sm-3">
+              <div className="col-sm-12">
                 <a href="#" onClick={() => this.dispatchFilterData(Item)}>
                   {Item.ItemName}
                 </a>
@@ -153,7 +153,7 @@ export class Search extends Component {
               </div>
             </div>
             <div className="row" height="150">
-              <div className="col-sm-3" id="suggestions"></div>
+              <div className="col-sm-12" id="suggestions"></div>
             </div>
           </div>
         );
@@ -175,7 +175,7 @@ export class Search extends Component {
               </div>
             </div>
             <div className="row" height="150">
-              <div className="col-sm-3" id="suggestions"></div>
+              <div className="col-sm-12" id="suggestions"></div>
             </div>
           </div>
         );
@@ -197,7 +197,7 @@ export class Search extends Component {
               </div>
             </div>
             <div className="row" height="150">
-              <div className="col-sm-3" id="suggestions"></div>
+              <div className="col-sm-12" id="suggestions"></div>
             </div>
           </div>
         );

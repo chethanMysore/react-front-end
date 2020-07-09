@@ -92,7 +92,7 @@ export class App extends Component {
             <div id="toastr" className="col-sm-12"></div>
           </div>
           <div className="row">
-            <div className="col-sm-2">
+            <div className="col-sm-4">
               <Filter />
             </div>
             <div className="col-sm-1">

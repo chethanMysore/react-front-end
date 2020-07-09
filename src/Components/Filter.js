@@ -64,7 +64,7 @@ export class Filter extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-2" id="search"></div>
+            <div className="col-sm-12" id="search"></div>
           </div>
         </div>
       </form>
