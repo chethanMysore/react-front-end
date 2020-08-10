@@ -1,5 +1,5 @@
 # Resource Manager Dashboard
-This is a dashboard for Resource Manager of Illinois Tech University. The application is written in **reactjs** with **redux** as state manager. The dashboard is styled with bootstrap and some custom css.
+This is a dashboard for Resource Manager. The application is written in **reactjs** with **redux** as state manager. The dashboard is styled with bootstrap and some custom css. The dashboard consumes API's exposed by **[node-backend.](https://github.com/chethanMysore/node-backend)**
 
 ## System Requirements
  - *nodejs* version > 8.x [download here](https://nodejs.org/en/)
